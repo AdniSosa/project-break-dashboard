@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #aa7878;
+    font-family: "Aclonica", sans-serif;
+}
+
+header {
+    background-color: rgba(236, 229, 229, 0.4);
+    height: 60px;
+
+}
+
+#home-icon {
+    width: 35px;
+    position: relative;
+    left: -550px;
+    cursor: pointer;
+}
+
+#weather-icon, #password-icon, #link-icon {
+    width: 50px;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+}
+
+#weather-icon {
+    width: 45px;
+    left: 41%;
+}
+
+#password-icon {
+    left: 41.5%;
+}
+
+#link-icon {
+    left: 41%;
+}
+
+#clock-div {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    background-color: rgba(236, 229, 229, 0.6);
+    width: 30%;
+    height: 40%;
+    border-radius: 30px;
+    padding: 0 15px;
+}
+
+h1 {
+    font-size: 3.3rem;
+}
+
+h2 {
+    font-weight: 400;
+    position: relative;
+    bottom: 30%;
+}
+
+h3 {
+    font-size: 1.3rem;
+    position: relative;
+    top: 15%;
+    color: #333;
+}

@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #aa7878;
+    font-family: "Aclonica", sans-serif;
+}
+
+header {
+    background-color: rgba(236, 229, 229, 0.4);
+    height: 60px;
+
+}
+
+#home-icon {
+    width: 35px;
+    position: relative;
+    left: -550px;
+    cursor: pointer;
+}
+
+#link-icon, #clock-icon, #password-icon {
+    width: 50px;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+}
+
+#link-icon {
+    width: 45px;
+    left: 42%;
+}
+
+#clock-icon {
+    width: 30px;
+    top: -4px;
+    left: 41.4%;
+}
+
+#password-icon {
+    left: 41.5%;
+}
+
+
+.weather-info {
+    display: flex;
+    background-color: rgba(236, 229, 229, 0.6);
+    justify-content: center;   
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.weather-info1, .weather-info2  {
+    text-align: left;
+    margin: 0;
+    width: 50%;
+}
+
+.weather-info1 {
+    position: relative;
+    left: -13%;
+}
+
+.condition{
+    font-size: 1.2rem;
+    margin-top: -20px;
+    position: relative;
+    left: -3%;
+    margin-top: -25px;
+}
+
+.temperature {
+    font-size: 2rem;
+    margin-top: -20px;
+    position: relative;
+    left: 3%;
+}
+
+.weather-info2 {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    color: #746e6e;
+}
+
+.weather-info2 p {
+    margin: 10px;
+}
+
+h1 {
+    font-size: 1.3rem;
+    color: #333;
+    position: relative;
+    left: 10%;
+    width: 550px;
+    border-radius: 15px;
+    margin-bottom: 0;
+}
+
+.weather-img {
+    width: 100px;
+    position: relative;
+    left: 47%;
+}
+
+.allForecastDiv {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    overflow: auto;
+    width: 50%;
+    position: absolute;
+    left: 22%;
+    top: 60%;
+    background-color: rgba(207, 206, 245, 0.651);
+    border-radius: 10px;
+    padding: 0 30px 0 50px;
+}
+

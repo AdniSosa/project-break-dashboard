@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Atma:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: #aa7878;
+    font-family: "Aclonica", sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(236, 229, 229, 0.4);
+    height: 60px;
+
+}
+
+#home-icon {
+    width: 35px;
+    position: relative;
+    left: -550px;
+    cursor: pointer;
+}
+
+#weather-icon, #clock-icon, #password-icon {
+    width: 50px;
+    position: relative;
+    top: 10%;
+    cursor: pointer;
+}
+
+#weather-icon {
+    width: 45px;
+    left: 41%;
+}
+
+#clock-icon {
+    width: 30px;
+    top: -4px;
+    left: 41.4%;
+}
+
+#password-icon {
+    left: 41.5%;
+}
+
+h1 {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 12%;
+    left:30%;
+    color: #333;
+    background-color: rgba(236, 229, 229, 0.6);
+    width: 550px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#link-name, #link, #linkBtn {
+    position: absolute;
+    border-radius: 5px;
+    border: 1px #aa6565 solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link-name {
+    top: 27%;
+    left: 32%;
+    height: 25px;
+    
+}
+
+#link-name:active, #link:active {
+    background-color: #ad9999;
+}
+
+#link {
+    top:27%;
+    left: 46.5%;
+    height: 25px;
+
+}
+
+#linkBtn {
+    top: 26%;
+    left: 61%;
+    padding: 10px;
+    background-color: #aa7878;
+    color: white;
+    font-size: 15px;
+    
+}
+
+#linkBtn:hover {
+    background-color: #a2c9aa;
+}
+
+#links-list {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    margin: 100px;
+    list-style: none;
+    background-color: rgba(236, 229, 229, 0.6);
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 10px 10px 30px 10px;
+    
+}
+
+#links-list h2 {
+    margin: 20px 0 0 0;
+    font-size: 1.2rem;
+}
+
+#links-list p {
+    margin: 10px;
+    line-height: 10px;
+}
+
+.delete-link-btn {
+    background-color: #a2c9aa;
+    border: none;
+    padding: 7px;
+    border-radius: 3px;
+    color: #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.delete-link-btn:hover {
+    background-color: #333;
+    color: white;
+}
+
