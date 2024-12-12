@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/links.css">
+    <link rel="stylesheet" href="./css/clock.css">
+    <link rel="stylesheet" href="./css/weather.css">
+    <link rel="stylesheet" href="./css/passwords.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <header>
+        <a href="./links.html"><img id="link-icon" src="./assets/icons/link.png" alt="Icono de enlace"/></a>
+        <a href="./weather.html"><img id="weather-icon" src="./assets/icons/nube.png" alt="Icono de nube"/></a>
+        <a href="./clock.html"><img id="clock-icon" src="./assets/icons/clock.png" alt="Icono de reloj"/></a>
+        <a href="./passwords.html"><img id="password-icon" src="./assets/icons/password.png" alt="Icono de candado"/></a>
+    </header>
+    <div id="all-divs">
+        <div id="general-links-div">
+            <h1 id="links-title">Guarda tus enlaces de interés</h1>
+            <div id="links-div">
+                <input id="link-name" type="text" placeholder="Nombre del enlace">
+                <input id="link" type="text" placeholder="Aquí la URL">
+                <button id="linkBtn">Añadir enlace</button>
+                <div id="result-div">
+                    <ul id="links-list"></ul>
+                </div>
+            </div>
+        </div>
+        <div id="general-clock-div">
+            <div id="clock-div"></div>
+        </div>
+        <div id="general-passwords-div">
+            <h1 id="title-passwords">Generador de contraseña segura</h1>
+            <div id="password-div">
+                <h3>Ingresa el número de caracteres de la contraseña</h3>
+                <input id="character-number" type="number" min="12" max="50" placeholder="12">
+                <button id="passwordBtn">Generar contraseña</button>
+                <div id="result-div"></div>
+            </div>
+        </div>
+        <div id="general-weather-div">
+            <div id="weather-div">
+            
+            </div>
+        </div>
+    </div>
+    <script src="./js/links.js"></script>
+    <script src="./js/clock.js"></script>
+    <script src="./js/passwords.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/background.js"></script>
+    
+</body>
+</html>

@@ -46,7 +46,7 @@ header {
     left: 41.5%;
 }
 
-h1 {
+#links-title {
     font-size: 1.8rem;
     position: absolute;
     top: 12%;

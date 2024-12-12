@@ -19,6 +19,7 @@ header {
 #home-icon {
     width: 35px;
     position: relative;
+    top: -10px;
     left: -550px;
     cursor: pointer;
 }
@@ -31,17 +32,18 @@ header {
 }
 
 #link-icon {
-    width: 45px;
-    left: 42%;
+    width: 60px;
+    left: 42.2%;
 }
 
 #clock-icon {
     width: 30px;
-    top: -4px;
+    top: -10px;
     left: 41.4%;
 }
 
 #password-icon {
+    top: -2px;
     left: 41.5%;
 }
 
@@ -88,14 +90,14 @@ header {
     position: absolute;
     top: 50%;
     left: 47%;
-    color: #746e6e;
+    color: #5f5a5a;
 }
 
 .weather-info2 p {
     margin: 10px;
 }
 
-h1 {
+.location {
     font-size: 1.3rem;
     color: #333;
     position: relative;

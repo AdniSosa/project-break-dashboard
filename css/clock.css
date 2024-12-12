@@ -32,15 +32,15 @@ header {
 
 #weather-icon {
     width: 45px;
-    left: 41%;
-}
-
-#password-icon {
     left: 41.5%;
 }
 
+#password-icon {
+    left: 41.4%;
+}
+
 #link-icon {
-    left: 41%;
+    left: 40.5%;
 }
 
 #clock-div {
@@ -54,17 +54,17 @@ header {
     padding: 0 15px;
 }
 
-h1 {
+#clock-div h1 {
     font-size: 3.3rem;
 }
 
-h2 {
+#clock-div h2 {
     font-weight: 400;
     position: relative;
     bottom: 30%;
 }
 
-h3 {
+#clock-div h3 {
     font-size: 1.3rem;
     position: relative;
     top: 15%;

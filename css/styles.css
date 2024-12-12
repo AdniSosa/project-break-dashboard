@@ -1,0 +1,191 @@
+
+
+#weather-icon {
+    left: 40.8%;
+}
+
+#password-icon {
+    top: 7px;
+}
+
+#link-icon {
+    left: 41.5%;
+}
+
+#clock-icon {
+    left: 41.3%;
+}
+
+#all-divs {
+    display: flex;
+}
+
+/*CSS LINKS*/
+
+#general-links-div {
+    position: absolute;
+    left: 0;
+    top: 430px;
+}
+
+#general-links-div h1 {
+    left: 20px;
+    font-size: 1.4rem;
+}
+
+#link-name {
+    top: 80px;
+    left: 90px;
+    width: 150px;
+}
+
+#link {
+    top: 80px;
+    width: 150px;
+    left: 260px;
+}
+
+#linkBtn {
+    top: 70px;
+    left: 430px;
+    width: 100px;
+}
+
+#links-list {
+    top: -360px;
+    left: -1050px;
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+#links-list h2 {
+    font-size: 18px;
+}
+
+#links-list p {
+    line-height: 17px;
+    font-size: 15px;
+}
+
+/*CSS CLOCK*/
+#general-clock-div {
+    position: absolute;
+    top: 130px;
+    left: 700px;
+}
+
+#clock-div {
+    height: 200px;
+    width: 500px;
+}
+
+#clock-div h1 {
+    position: absolute;
+    top: 5px;
+    left: 165px;
+    color: #aa7878;
+    font-size: 2.5rem;
+}
+
+#clock-div h2 {
+    position: absolute;
+    top: 65px;
+    width: 500px;
+    font-size: 1.3rem;
+}
+
+#clock-div h3 {
+    position: absolute;
+    top: 100px;
+    width: 500px;
+    font-size: 1.1rem;
+}
+
+/*CSS PASSWORDS*/
+
+#general-passwords-div {
+    position: absolute;
+    top: 340px;
+    right: 280px;
+    width: 500px;
+    height: auto;
+}
+
+#title-passwords {
+    font-size: 1.4rem;
+    left: 160px;
+    width: 90%;
+}
+
+#password-div {
+    position: relative;
+    bottom: -120px;
+    left: 150px;
+    width: 100%;
+    padding: 5px 0 20px 0;
+    height: 130px;
+}
+
+#result-div {
+    position: relative;
+    top: 120px;
+    left: 870px;
+}
+
+/*CSS WEATHER*/
+
+#general-weather-div {
+    position: absolute;
+    top: 90px;
+}
+
+.location {
+    font-size: 1.4rem;
+    left: -10px;
+}
+
+.weather-info {
+    top: 0px;
+    left: 150px;
+    width: 330px;
+    background-color: rgba(236, 229, 229, 0.315);
+}
+
+.weather-img {
+    left: -10px;
+    width: 80px;
+}
+
+.weather-info1 {
+    left: -50px;
+}
+
+.weather-info2 {
+    top: 60px;
+    left: 170px;
+    font-size: 15px;
+}
+
+.allForecastDiv {
+    top: 220px;
+    width: 400px;
+    left: 30px;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 120px;
+}
+
+.temp-hour {
+    margin: -5px;
+    font-size: 13px;
+}
+
+.forecast-img {
+    margin: 0px; 
+    width: 50px;
+}
+
+.weather-hour {
+    margin: 0;
+    font-size: 13px;
+}
