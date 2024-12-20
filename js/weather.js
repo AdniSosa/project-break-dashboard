@@ -108,7 +108,7 @@ const getWeather = async () => {
             const weatherSplice = weatherToSplit.splice(11, 15);
             //console.log(weatherSplice);
             const weatherJoin = weatherSplice.join('');
-            //console.log(weatherJoin);
+            console.log(weatherJoin);
 
             weatherHour.textContent = weatherJoin;
             temperatureHour.textContent = `${hour.temp_c}ºC`;

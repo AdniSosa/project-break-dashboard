@@ -152,7 +152,8 @@
 }
 
 .weather-img {
-    left: -10px;
+    left: 10px;
+    padding-bottom: 5px;
     width: 80px;
 }
 
@@ -168,11 +169,12 @@
 
 .allForecastDiv {
     top: 220px;
-    width: 400px;
-    left: 30px;
+    width: 500px;
+    left: 50px;
     height: 100px;
     padding-top: 10px;
-    padding-left: 120px;
+    padding-left: 10px;
+    padding-right: 0px
 }
 
 .temp-hour {
