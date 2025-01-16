@@ -1,4 +1,4 @@
-
+/*CSS ICONS*/
 
 #weather-icon {
     left: 40.8%;
@@ -16,8 +16,13 @@
     left: 41.3%;
 }
 
+/*CSS ALL DIVS*/
+
 #all-divs {
     display: flex;
+    position: relative;
+    left: 120px;
+    top: -40px;
 }
 
 /*CSS LINKS*/
@@ -25,7 +30,7 @@
 #general-links-div {
     position: absolute;
     left: 0;
-    top: 430px;
+    top: 450px;
 }
 
 #general-links-div h1 {
@@ -70,7 +75,7 @@
 /*CSS CLOCK*/
 #general-clock-div {
     position: absolute;
-    top: 130px;
+    top: 100px;
     left: 700px;
 }
 
@@ -105,8 +110,8 @@
 
 #general-passwords-div {
     position: absolute;
-    top: 340px;
-    right: 280px;
+    top: 300px;
+    right: 450px;
     width: 500px;
     height: auto;
 }
@@ -170,7 +175,7 @@
 .allForecastDiv {
     top: 220px;
     width: 500px;
-    left: 50px;
+    left: 60px;
     height: 100px;
     padding-top: 10px;
     padding-left: 10px;
